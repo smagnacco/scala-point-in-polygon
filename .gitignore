@@ -1,0 +1,28 @@
+# Created by https://www.gitignore.io
+
+### Scala ###
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+.idea*
+*.iml
+*.pyc
+logs
+base-dir_IS_UNDEFINED/*
+.history
+scripts/debug-modify.sh
